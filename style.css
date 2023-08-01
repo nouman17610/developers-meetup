@@ -1,0 +1,72 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'lato';
+}
+
+a {
+    text-decoration: none;
+}
+
+.black-bg {
+  background-color: black;
+}
+
+.black-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 90%;
+  color: white;
+  list-style: none;
+  gap: 20px;
+  padding: 10px 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.brand-name {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.brand-name a {
+    color: black;
+}
+
+.nav {
+  margin-top: 12px;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: black;
+}
+
+.nav-item {
+    padding: 5px;
+    border: 3px solid white;
+}
+
+.nav-itemc {
+  border: 3px solid red;
+  padding: 5px;
+}
+
