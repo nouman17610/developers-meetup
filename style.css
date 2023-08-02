@@ -72,6 +72,9 @@ a {
 }
 
 /** CSS for Toggle menu**/
+i.fa-regular-x.cross {
+  display: none;
+}
 .ham-icon {
     display: block;
     cursor: pointer;
@@ -209,11 +212,11 @@ a {
 }
 
 .speaker-image {
-  width: 100%; /* Ensure the image takes full width inside the container */
+  width: 100%;
 }
   
 .speaker-content {
-  padding: 0 10px; /* Add some padding around the content */
+  padding: 0 10px; 
 }
 
 .speaker-content h2 {
@@ -273,6 +276,107 @@ a {
  margin: auto;
  margin-top: 50px;
  margin-bottom: 30px;
+}
+
+/** About us styling**/
+
+.about-banner {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.about-banner h1 {
+  color: #FF5438;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.banner-white {
+  background-color: white;
+  width: 55%;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.banner-white p {
+  color: #000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.contact-text {
+  color: #7A7A7A;
+  font-size: 16px;
+  font-weight: 700px;
+}
+
+.email {
+  color: #7A7A7A;
+  font-size: 16px;
+  font-weight: 700px;
+  text-decoration: underline;
+  padding-bottom: 50px;
+}
+
+.logo-area {
+  border-bottom: 1px solid #ebe6e6;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  width: 50%;
+  margin: 50px auto;
+}
+
+.logo-container h2 {
+  color: #2C2C2C;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.logo-container p {
+  color: #838383;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+.logo-container img {
+  width: 500px;
+  height: auto;
+}
+
+.grid-images {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 10px;
+}
+
+.footer1 {
+  background-color: #2E2E2E;
+  color: white;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 70%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #2E2E2E;
+  color: white;
 }
 
 @media (max-width: 768px) {
@@ -461,5 +565,42 @@ a {
 
   .footer p {
     font-size: 12px;
+  }
+
+  /** About Page**/
+
+  .banner-white {
+    width: 95%;
+  }
+
+  .banner-white p {
+    font-size: 12px;
+  }
+
+  .contact-text, .email {
+    font-size: 12px;
+  }
+
+  .logo-container {
+    width: 95%;
+    text-align: center;
+    margin-auto;
+  }
+
+  .logo-container p {
+    font-size: 12px;
+    font-weight: lighter;
+  }
+
+  .logo-container h2 {
+    font-size: 20px;
+  }
+
+  .grid-images {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    margin: auto;
   }
 }
