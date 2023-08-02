@@ -493,7 +493,6 @@ i.fa-regular-x.cross {
     display: grid;
     grid-template-columns: 100%;
     width: 95%;
-    
   }
 
   .topic-box {
@@ -584,7 +583,7 @@ i.fa-regular-x.cross {
   .logo-container {
     width: 95%;
     text-align: center;
-    margin-auto;
+    margin: auto;
   }
 
   .logo-container p {
