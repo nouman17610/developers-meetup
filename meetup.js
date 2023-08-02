@@ -7,8 +7,7 @@ hamIcon.addEventListener('click', () => {
 document.querySelectorAll('.nav-item a').forEach((n) => n.addEventListener('click', () => {
   hamIcon.classList.remove('active');
   navItems.classList.remove('active');
-})
-);
+}));
 const closebutton = document.querySelector('.cross');
 closebutton.addEventListener('click', () => {
   hamIcon.classList.remove('active');
