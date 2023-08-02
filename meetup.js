@@ -7,11 +7,10 @@ hamIcon.addEventListener('click', () => {
 document.querySelectorAll('.nav-item a').forEach((n) => n.addEventListener('click', () => {
   hamIcon.classList.remove('active');
   navItems.classList.remove('active');
-  })
+})
 );
 const closebutton = document.querySelector('.cross');
-closebutton.addEventListener("click", () => {
-  //navItems.classList.add('hide');
+closebutton.addEventListener('click', () => {
   hamIcon.classList.remove('active');
   navItems.classList.remove('active');
 });
@@ -64,43 +63,37 @@ function addSpeakersToContainer(speakersData) {
   speakersData.forEach((speaker) => {
     const speakerCard = document.createElement('div');
     speakerCard.classList.add('speaker-card');
-      // Separate div for the image
-      const speakerImage = document.createElement('div');
-      speakerImage.classList.add('speaker-image');
-      const img = document.createElement('img');
-      img.src = speaker.img;
-      img.alt = speaker.name;
-      speakerImage.appendChild(img);
-  
-      // Separate div for the content
-      const speakerContent = document.createElement('div');
-      speakerContent.classList.add('speaker-content');
-  
-      const speakerName = document.createElement('h2');
-      speakerName.textContent = speaker.name;
-  
-      const speakerTitle = document.createElement('p');
-      speakerTitle.textContent = speaker.title;
-      speakerTitle.classList.add('speaker-title');
-  
-      const speakerDesc = document.createElement('p');
-      speakerDesc.textContent = speaker.desc;
-  
-      speakerContent.appendChild(speakerName);
-      speakerContent.appendChild(speakerTitle);
-      speakerContent.appendChild(speakerDesc);
-  
-      speakerCard.appendChild(speakerImage);
-      speakerCard.appendChild(speakerContent);
-  
-      container.appendChild(speakerCard);
-    });
-  }
-  
-  // Call the function to add speakers to the container
-  addSpeakersToContainer(featuredSpeakers);
-  
-  
-  
-  
-  
+    const speakerImage = document.createElement('div');
+    speakerImage.classList.add('speaker-image');
+    const img = document.createElement('img');
+    img.src = speaker.img;
+    img.alt = speaker.name;
+    speakerImage.appendChild(img);
+
+    // Separate div for the content
+    const speakerContent = document.createElement('div');
+    speakerContent.classList.add('speaker-content');
+
+    const speakerName = document.createElement('h2');
+    speakerName.textContent = speaker.name;
+
+    const speakerTitle = document.createElement('p');
+    speakerTitle.textContent = speaker.title;
+    speakerTitle.classList.add('speaker-title');
+
+    const speakerDesc = document.createElement('p');
+    speakerDesc.textContent = speaker.desc;
+
+    speakerContent.appendChild(speakerName);
+    speakerContent.appendChild(speakerTitle);
+    speakerContent.appendChild(speakerDesc);
+
+    speakerCard.appendChild(speakerImage);
+    speakerCard.appendChild(speakerContent);
+
+    container.appendChild(speakerCard);
+  });
+}
+
+// Call the function to add speakers to the container
+addSpeakersToContainer(featuredSpeakers);
