@@ -72,7 +72,7 @@ a {
   padding: 5px;
 }
 
- /** CSS for Toggle menu**/
+/** CSS for Toggle menu **/
 i.fa-regular-x.cross {
   display: none;
 }
@@ -81,7 +81,7 @@ i.fa-regular-x.cross {
   display: block;
   cursor: pointer;
 }
-  
+
 .bars {
   display: none;
   width: 25px;
@@ -279,7 +279,7 @@ i.fa-regular-x.cross {
   margin-bottom: 30px;
 }
 
- /** About us styling**/
+/** About us styling **/
 
 .about-banner {
   text-align: center;
@@ -388,11 +388,12 @@ i.fa-regular-x.cross {
   .nav-container {
     width: 100%;
   }
+
   .ham-icon {
     display: block;
     order: 1;
   }
-    
+
   .bars {
     display: block;
   }
@@ -417,7 +418,7 @@ i.fa-regular-x.cross {
     stroke-width: 2px;
     stroke: var(--base-500-secondary, #67798e);
   }
-  
+
   .nav-links {
     position: fixed;
     left: -100%;
@@ -425,7 +426,7 @@ i.fa-regular-x.cross {
     gap: 1px;
     display: flex;
     flex-direction: column;
-    background-color: #FF5438;
+    background-color: #ff5438;
     opacity: 95%;
     transition: 0.3s;
     width: 70%;
@@ -433,19 +434,19 @@ i.fa-regular-x.cross {
     margin: auto;
     padding-right: 10px;
   }
-    
+
   .nav-item {
     margin: 12px 0;
     font-size: 30px;
     font-weight: bold;
     margin-left: 16px;
   }
-    
+
   .nav-item a {
     color: white;
     margin-left: 5%;
   }
-    
+
   .nav-links.active {
     left: 0;
   }
@@ -458,20 +459,20 @@ i.fa-regular-x.cross {
     font-size: 25px;
     margin-top: 40px;
   }
-  
+
   .heading {
     font-size: 35px;
-    color: #FF5438;
+    color: #ff5438;
     font-weight: bold;
   }
-  
+
   .highlight-detail {
     background-color: #f9f7f7;
     color: #515151;
     border: 2px solid white;
     width: 125%;
   }
-  
+
   .highlight-detail p {
     padding: 15px;
     font-size: 12px;
@@ -485,7 +486,7 @@ i.fa-regular-x.cross {
 
   .location {
     margin-bottom: 5%;
-    color:#67798e;
+    color: #67798e;
     font-size: 12px;
     margin-top: -20px;
   }
@@ -524,7 +525,7 @@ i.fa-regular-x.cross {
     flex-direction: column;
     width: 100%;
   }
-  
+
   .speaker-card {
     display: flex;
     width: calc(100% - 80px);
@@ -543,7 +544,7 @@ i.fa-regular-x.cross {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .sponsor-brand img {
     width: 89px;
   }
@@ -568,7 +569,7 @@ i.fa-regular-x.cross {
     font-size: 12px;
   }
 
-  /** About Page**/
+  /** About Page **/
 
   .banner-white {
     width: 95%;
@@ -578,7 +579,8 @@ i.fa-regular-x.cross {
     font-size: 12px;
   }
 
-  .contact-text, .email {
+  .contact-text,
+  .email {
     font-size: 12px;
   }
 
