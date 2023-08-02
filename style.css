@@ -29,12 +29,13 @@ a {
   padding: 10px 50px;
 }
 
-.container {
+.nav-container {
   display: flex;
   flex-direction: row; 
   align-items: center;
   justify-content: space-between;
   width: 75%;
+  margin: auto;
 }
 
 .brand-name {
@@ -177,8 +178,72 @@ a {
 }
 
 .topic-link {
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 }
+
+.speaker-area {
+  background-color: white;
+  margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.speaker-heading {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1%;
+}
+  
+.speaker-card {
+  width: calc(50% - 10px);
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.speaker-image {
+  width: 100%; /* Ensure the image takes full width inside the container */
+}
+  
+.speaker-content {
+  padding: 0 10px; /* Add some padding around the content */
+}
+
+.speaker-content h2 {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.speaker-content p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.speaker-title {
+  color: #F78C89;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+  
+.speaker-button {
+  text-align: center;
+}
+
+.speaker-button button {
+  padding: 5px;
+}
+  
 
 .sponsors {
   background-color: #414246;
@@ -215,15 +280,25 @@ a {
       display: none;
     }
 
-    .container {
-      width: 90%;
+    .nav-container {
+      width: 100%;
     }
     .ham-icon {
         display: block;
+        order: 1;
       }
     
     .bars {
       display: block;
+    }
+
+    .nav {
+      order: 1;
+    }
+
+    .brand-name {
+      order: 2;
+      text-align: center;
     }
 
     .cross {
@@ -245,25 +320,146 @@ a {
       gap: 1px;
       display: flex;
       flex-direction: column;
-      background-color: #485af7;
+      background-color: #FF5438;
       opacity: 95%;
       transition: 0.3s;
-      width: 100%;
+      width: 70%;
       height: 100%;
+      margin: auto;
+      padding-right: 10px;
       }
     
     .nav-item {
       margin: 12px 0;
       font-size: 30px;
       font-weight: bold;
-      }
+      margin-left: 16px;
+    }
     
-      .nav-item a {
-        color: white;
-        margin-left: 5%;
-      }
+    .nav-item a {
+      color: white;
+      margin-left: 5%;
+    }
     
-      .nav-links.active {
-        left: 0;
-      }
+    .nav-links.active {
+      left: 0;
+    }
+
+  .banner-highlight {
+    width: 90%;
+  }
+
+  .initial-highlight {
+    font-size: 25px;
+    margin-top: 40px;
+  }
+  
+  .heading {
+    font-size: 35px;
+    color: #FF5438;
+    font-weight: bold;
+  }
+  
+  .highlight-detail {
+    background-color: #f9f7f7;
+    color: #515151;
+    border: 2px solid white;
+    width: 125%;
+  }
+  
+  .highlight-detail p {
+    padding: 15px;
+    font-size: 12px;
+  }
+  
+  .time {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 23px;
+  }
+  
+  .location {
+    margin-bottom: 5%;
+    color:#67798e;
+    font-size: 12px;
+    margin-top: -20px;
+  }
+
+  .topic-boxes {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 95%;
+    
+  }
+
+  .topic-box {
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 5px;
+  }
+
+  .topic-box p {
+    text-align: left;
+    font-size: 12px;
+  }
+  .topic-box h4 {
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .topic-box img {
+    width: 57px;
+    height: auto;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .speaker-card {
+    display: flex;
+    width: calc(100% - 80px);
+  }
+
+  .speaker-card img {
+    width: 115px;
+  }
+
+  .speaker-content {
+    width: 100%;
+  }
+
+  .sponsor-brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sponsor-brand img {
+    width: 89px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 95%;
+  }
+
+  .brands-name {
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .strong {
+    display: none;
+  }
+
+  .footer p {
+    font-size: 12px;
+  }
 }
