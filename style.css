@@ -204,7 +204,7 @@ a {
 
 .speaker-heading {
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
 }
 
 .container {
@@ -214,6 +214,7 @@ a {
   width: 80%;
   margin: auto;
   margin-bottom: 1%;
+  margin-top: 5%;
 }
 
 .speaker-card {

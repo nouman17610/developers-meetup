@@ -16,7 +16,7 @@ closebutton.addEventListener('click', () => {
 const featuredSpeakers = [
   {
     id: 1,
-    mg: './images/speaker01.png',
+    img: './images/speaker01.png',
     name: 'Nouman Wali',
     title: 'Fullstack Developer',
     desc: 'Nouman wali handles a team of 50 developers and designers, he has an experience of around 10 years in programming.',
