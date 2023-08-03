@@ -408,7 +408,7 @@ a {
 }
 
 .logo-container img {
-  width: 500px;
+  width: 100%;
   height: auto;
 }
 
@@ -442,7 +442,12 @@ a {
 }
 
 @media (max-width: 768px) {
-  .black-bg {
+  
+  body {
+   overflow-x: hidden;
+  }
+
+ .black-bg {
     display: none;
   }
 
@@ -490,7 +495,7 @@ a {
     background-color: #ff5438;
     opacity: 95%;
     transition: 0.3s;
-    width: 70%;
+    width: 100%;
     height: 100%;
     margin: auto;
     padding-right: 10px;
@@ -508,8 +513,17 @@ a {
     margin-left: 5%;
   }
 
+  .nav-itemc a {
+    color: white;
+    margin-left: 5%;
+  }
+
   .nav-links.active {
     left: 0;
+  }
+
+  .banner-area {
+    background-size: contain;
   }
 
   .banner-highlight {
@@ -524,7 +538,7 @@ a {
 
   .initial-highlight1 {
     font-size: 25px;
-    margin-top: 40px;
+    margin-top: 0;
     display: block;
   }
 
@@ -567,10 +581,11 @@ a {
 
   .topic-box {
     display: grid;
-    grid-template-columns: 20% 20% 60%;
+    grid-template-columns: 20% 20% 55%;
     align-items: center;
     gap: 10px;
     padding: 10px 5px;
+    margin-bottom: 10px;
   }
 
   .topic-box p {
@@ -627,7 +642,6 @@ a {
   .footer {
     display: grid;
     grid-template-columns: 50% 50%;
-    width: 95%;
   }
 
   .brands-name {
