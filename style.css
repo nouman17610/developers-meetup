@@ -77,6 +77,9 @@ a {
   padding: 5px;
 }
 
+.nav-itemc a {
+  color: #ff5438;
+}
 /** CSS for Toggle menu **/
 
 .ham-icon {
@@ -380,6 +383,13 @@ a {
   padding-bottom: 50px;
   background-color: #2e2e2e;
   color: white;
+}
+
+.underline {
+  background-color: #ff5438;
+  border: 1px solid #ff5438;
+  width: 60px;
+  margin: auto;
 }
 
 @media (max-width: 768px) {
