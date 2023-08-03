@@ -29,6 +29,10 @@ a {
   padding: 10px 50px;
 }
 
+.black-list a {
+  color: white;
+}
+
 .nav-container {
   display: flex;
   flex-direction: row;
@@ -73,9 +77,6 @@ a {
 }
 
 /** CSS for Toggle menu **/
-i.fa-regular-x.cross {
-  display: none;
-}
 
 .ham-icon {
   display: block;
@@ -605,5 +606,11 @@ i.fa-regular-x.cross {
     gap: 15px;
     width: 100%;
     margin: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-links i {
+    display: none;
   }
 }
