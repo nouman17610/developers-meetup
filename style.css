@@ -80,6 +80,7 @@ a {
 .nav-itemc a {
   color: #ff5438;
 }
+
 /** CSS for Toggle menu **/
 
 .ham-icon {
@@ -266,6 +267,7 @@ a {
 .speaker-button button:hover {
   background-color: #f78c89;
 }
+
 .sponsors {
   background-color: #414246;
   text-align: center;
@@ -297,10 +299,6 @@ a {
 }
 
 /** About us styling **/
-
-.initial-highlight {
-  display: none;
-}
 
 .about-banner {
   text-align: center;
@@ -620,7 +618,7 @@ a {
   }
 
   .brands-name {
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 18px;
   }
@@ -708,10 +706,6 @@ a {
     margin: auto;
   }
 
-  .brands-name {
-    color: white;
-  }
-
   .footer-container {
     gap: 10px;
   }
@@ -719,6 +713,10 @@ a {
 
 @media (min-width: 768px) {
   .nav-links i {
+    display: none;
+  }
+
+  .initial-highlight {
     display: none;
   }
 }
