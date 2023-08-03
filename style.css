@@ -383,7 +383,7 @@ a {
   width: 50%;
   margin: 50px auto;
 }
-  
+
 .logo-container1 h2 {
   color: #2c2c2c;
   font-size: 30px;
@@ -393,7 +393,7 @@ a {
   margin-bottom: -2%;
   margin-top: 6%;
 }
-  
+
 .logo-container1 p {
   color: #838383;
   font-size: 14px;
@@ -514,7 +514,6 @@ a {
     font-size: 25px;
     margin-top: 40px;
     display: block;
-    margin-top: -5%;
   }
 
   .heading {
