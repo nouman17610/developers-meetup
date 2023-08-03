@@ -443,7 +443,7 @@ a {
 
 @media (max-width: 768px) {
   body {
-   overflow-x: hidden;
+    overflow-x: hidden;
   }
 
   .black-bg {
