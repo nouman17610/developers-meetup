@@ -538,6 +538,12 @@ a {
     height: auto;
   }
 
+  .topic-link a {
+    background-color: #ff5438;
+    border: 1px solid #ff5438;
+    padding: 15px;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
