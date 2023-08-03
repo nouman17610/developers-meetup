@@ -320,6 +320,7 @@ a {
   margin: 0 auto;
   padding: 10px;
   margin-bottom: 40px;
+  margin-top: 3%;
 }
 
 .banner-white p {
@@ -365,6 +366,8 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: 28px;
+  margin-bottom: -2%;
+  margin-top: 6%;
 }
 
 .logo-container p {
@@ -373,6 +376,32 @@ a {
   line-height: 21px;
   font-weight: bold;
 }
+
+.logo-container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    width: 50%;
+    margin: 50px auto;
+  }
+  
+  .logo-container1 h2 {
+    color: #2c2c2c;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: -2%;
+    margin-top: 6%;
+  }
+  
+  .logo-container1 p {
+    color: #838383;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+  }
 
 .logo-container img {
   width: 500px;
@@ -624,6 +653,12 @@ a {
     font-size: 12px;
   }
 
+  .logo-area{
+    width: 95%;
+    margin: auto;
+    align-items: center;
+  }
+
   .logo-container {
     width: 95%;
     text-align: center;
@@ -639,12 +674,46 @@ a {
     font-size: 20px;
   }
 
+  .logo-container1 {
+    width: 95%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .logo-container1 p {
+    font-size: 12px;
+    font-weight: lighter;
+  }
+
+  .logo-container1 h2 {
+    font-size: 20px;
+  }
+
+  .logo-container1 img {
+    width: 345px;
+  }
+
   .grid-images {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 15px;
     width: 100%;
     margin: auto;
+    margin-bottom: 6%;
+  }
+
+  .each-image {
+    width: 100%;
+    margin: auto;
+  }
+
+  .brands-name {
+    color: white;
+  }
+
+  .footer-container {
+    gap: 10px;
   }
 }
 
