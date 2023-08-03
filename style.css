@@ -125,6 +125,12 @@ a {
   margin-top: 70px;
 }
 
+.initial-highlight1 {
+  font-size: 40px;
+  color: #ff5438;
+  margin-top: 70px;
+}
+
 .heading {
   font-size: 60px;
   color: #ff5438;
@@ -516,6 +522,12 @@ a {
     display: block;
   }
 
+  .initial-highlight1 {
+    font-size: 25px;
+    margin-top: 40px;
+    display: block;
+  }
+
   .heading {
     font-size: 35px;
     color: #ff5438;
@@ -712,7 +724,7 @@ a {
     display: none;
   }
 
-  .initial-highlight {
+  .initial-highlight1 {
     display: none;
   }
 }
