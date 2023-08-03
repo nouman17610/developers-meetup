@@ -257,9 +257,15 @@ a {
 }
 
 .speaker-button button {
-  padding: 5px;
+  padding: 15px;
+  background-color: #ff5438;
+  color: white;
+  border: 1px solid #ff5438;
 }
 
+.speaker-button button:hover {
+  background-color: #f78c89;
+}
 .sponsors {
   background-color: #414246;
   text-align: center;
