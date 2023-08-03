@@ -158,7 +158,7 @@ a {
 }
 
 .topic-area {
-  padding-top: 20px;
+  padding-top: 35px;
 }
 
 .topic-head {
@@ -179,16 +179,21 @@ a {
   color: white;
 }
 
+.topic-box:hover {
+  border: 2px solid white;
+}
+
 .topic-box h4 {
   color: #ff5438;
 }
 
 .topic a {
   color: white;
+  border-bottom: 1px solid white;
 }
 
 .topic-link {
-  padding-bottom: 20px;
+  padding-bottom: 45px;
 }
 
 .speaker-area {
