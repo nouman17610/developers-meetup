@@ -442,12 +442,11 @@ a {
 }
 
 @media (max-width: 768px) {
-  
   body {
    overflow-x: hidden;
   }
 
- .black-bg {
+  .black-bg {
     display: none;
   }
 
