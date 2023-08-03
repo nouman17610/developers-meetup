@@ -530,6 +530,7 @@ a {
   .topic-box h4 {
     text-align: left;
     font-size: 14px;
+    margin-left: -15%;
   }
 
   .topic-box img {
