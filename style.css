@@ -298,6 +298,10 @@ a {
 
 /** About us styling **/
 
+.initial-highlight {
+  display: none;
+}
+
 .about-banner {
   text-align: center;
   padding-top: 60px;
@@ -601,6 +605,11 @@ a {
   }
 
   /** About Page **/
+
+  .initial-highlight {
+    display: block;
+    margin-top: -5%;
+  }
 
   .banner-white {
     width: 95%;
