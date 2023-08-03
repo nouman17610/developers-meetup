@@ -57,12 +57,13 @@
 - **[home-page]**
 - **[about-page]**
 
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
 
+- [Live Demo](https://nouman17610.github.io/developers-meetup)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 💻 Getting Started <a name="getting-started"></a>
 
 ### Prerequisites
@@ -131,6 +132,7 @@ If you like this project please support the project by adding your contributions
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank my coding partner Collins and Filber who discussed the technical areas with me.
+I would like to give credit to  Cindy Shin for an idea of creative design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
